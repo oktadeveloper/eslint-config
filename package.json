@@ -1,0 +1,13 @@
+{
+  "name": "eslint-config-okta",
+  "description": "ESLint config for Okta JavaScript projects.",
+  "repository": "https://github.com/oktadeveloper/eslint-config",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "eslint": ">=5"
+  },
+  "engines": {
+    "yarn": ">=1.11 <2"
+  },
+  "version": "0.0.1"
+}
