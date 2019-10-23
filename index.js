@@ -30,6 +30,7 @@ module.exports = {
     "sourceType": "module",
   },
   "plugins": [
+    "no-unsanitized",
     "react",
     "react-hooks",
     "@typescript-eslint",
