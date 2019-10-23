@@ -4,7 +4,12 @@
   "repository": "https://github.com/oktadeveloper/eslint-config",
   "license": "Apache-2.0",
   "dependencies": {
-    "eslint": ">=5"
+    "@typescript-eslint/eslint-plugin": "2.x",
+    "@typescript-eslint/parser": "2.x",
+    "eslint": "6.x",
+    "eslint-plugin-import": "2.x",
+    "eslint-plugin-no-unsanitized": "3.x",
+    "eslint-plugin-react": "7.x"
   },
   "engines": {
     "yarn": ">=1.11 <2"
