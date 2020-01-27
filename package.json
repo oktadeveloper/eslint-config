@@ -7,8 +7,8 @@
     "@typescript-eslint/eslint-plugin": "2.x",
     "@typescript-eslint/parser": "2.x",
     "eslint-plugin-import": "2.x",
-    "eslint-plugin-no-unsanitized": "3.x",
     "eslint-plugin-no-only-tests": "2.x",
+    "eslint-plugin-no-unsanitized": "3.x",
     "eslint-plugin-react": "7.x",
     "eslint-plugin-react-hooks": "2.x",
     "typescript": "3.x"
@@ -19,5 +19,5 @@
   "engines": {
     "yarn": ">=1.11 <2"
   },
-  "version": "0.0.6"
+  "version": "0.0.7"
 }
