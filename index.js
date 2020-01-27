@@ -30,6 +30,7 @@ module.exports = {
     "sourceType": "module",
   },
   "plugins": [
+    "no-only-tests",
     "no-unsanitized",
     "react",
     "react-hooks",
@@ -76,6 +77,7 @@ module.exports = {
     "no-invalid-this": "off",
     "no-irregular-whitespace": "error",
     "no-multiple-empty-lines": "off",
+    "no-only-tests/no-only-tests": "error",
     "no-param-reassign": "off",
     "no-shadow": "error",
     "no-trailing-spaces": "error",
