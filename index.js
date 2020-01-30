@@ -106,6 +106,7 @@ module.exports = {
     "space-before-blocks": ["error", "always"],
     "space-before-function-paren": ["error", "always"],
     "spaced-comment": "error",
+    "template-curly-spacing": ["error", "never"],
     "vars-on-top": "off",
   },
 };
