@@ -105,7 +105,7 @@ module.exports = {
     "semi": "error",
     "space-before-blocks": "error",
     "space-before-function-paren": "error",
-    "spaced-comment": "error",
+    "spaced-comment": ["error", "always", { "markers": ["/"] }],
     "template-curly-spacing": ["error", "never"],
     "vars-on-top": "off",
   },

@@ -6,7 +6,7 @@ module.exports = {
     "react"
   ],
   "rules": {
-    "comma-dangle": "error",
+    "comma-dangle": ["error", { "arrays": "always-multiline", "objects": "always-multiline", "imports": "always-multiline", "exports": "always-multiline" }],
     "comma-spacing": "error",
     "comma-style": "error",
     "computed-property-spacing": "error",
