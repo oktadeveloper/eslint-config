@@ -7,11 +7,13 @@ In addition to generic JS linter rules, this includes rules for TypeScript, Reac
 
 ## Usage
 
+There are two configurations available for use, either `eslint-config-okta`, or `eslint-config-okta/strict`. The base configuration helps with transitioning over to the strict configuration.
+
 In your project's `package.json`:
 
 ```
   "eslintConfig": {
-    "extends": "eslint-config-okta"
+    "extends": "eslint-config-okta/strict"
   },
 ```
 
@@ -19,6 +21,6 @@ In your project's `package.json`:
 
 ```
 "extends": [
-  "eslint-config-okta"
+  "eslint-config-okta/strict"
 ],
 ```
