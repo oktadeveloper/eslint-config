@@ -72,7 +72,7 @@ module.exports = {
     "no-else-return": "error",
     "no-eq-null": "error",
     "no-eval": "error",
-    "no-extra-parens": "error",
+    "no-extra-parens": ["error", "all", { "nestedBinaryExpressions": false }],
     "no-implicit-globals": "error",
     "no-invalid-this": "off",
     "no-irregular-whitespace": "error",
